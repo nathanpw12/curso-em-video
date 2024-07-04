@@ -71,4 +71,4 @@ typeof {} // no terminal, resultado: object
 typeof function (){}; // no terminal, resultado: function
 typeof NaN // no terminal, resultado: number
 typeof Infinity // no terminal, resultado: number
-typeof null // no terminal, resultado: para o java null é um objeto mesmo sendo o tipo de dato null
+typeof null // no terminal, resultado: para o java null é um objeto mesmo sendo o tipo de dato
