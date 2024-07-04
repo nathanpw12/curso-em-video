@@ -1,6 +1,7 @@
 ================================ JAVASCRIPT =========================================
 
 * Criadora do js -> Mozilla
+* ECMAscript é o js padronizado pela ECMA
 * Livros:
   -JavaScript - O guia definitivo
   -JavaScript - Guia do Programador
