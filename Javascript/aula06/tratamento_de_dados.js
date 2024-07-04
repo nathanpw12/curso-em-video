@@ -36,7 +36,7 @@ console.log(`Meu nome é ${nome} e tenho ${idade} anos`);
 
 nome.length // quantos caracteres a string tem
 nome.toUpperCase // tudo maiúsculo
-nome.toLowerCase // tudo minúsculo
+nome.toLowerCase // tudo minúsculo.
 
 // Formatando Numbers
 
