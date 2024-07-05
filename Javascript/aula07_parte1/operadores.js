@@ -32,5 +32,30 @@ var f = b % e + 4 / e // 3
 //*** Auto-atribuições
 
 var n = 3
-n = n + 4
+n = n + 4   
+n = n - 5
+n = n * 4
+n = n / 2
+n = n ** 2
+n = n % 5
 
+// ou
+
+n += 4
+n -= 5
+n *= 4
+n /= 2
+n **= 2
+n %= 5
+
+//////////////////////////// Operadores De Incremento ////////////////////////////
+
+n += 4 // é igual a n = n + 4 
+n++ // é igual a n += 4 
+
+n = n - 5 // é igual a n = n - 5 
+n-- // é igual a n -= 5  
+
+// Pré/Pós Incremento/ Decremento
+++n
+--n 
