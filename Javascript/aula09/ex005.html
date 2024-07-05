@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Primeiros passos em DOM</title>
+</head>
+
+<body>
+  <h1 class='h1'>Iniciando estudos <strong>DOM</strong> </h1>
+  <p>Aqui vai o resultado</p>
+  <p name='paragrafo1'>Aprendendo a usar o DOM</p>
+  <div id='msg'>Clique em min</div>
+  <script>
+    window.document.write('Olá, mundo  ') 
+    var p1 = document.getElementsByTagName('p')[1]
+    window.document.write(p1.innerText)
+    p1.style.color = 'green';
+    var d = document.getElementById('msg');
+    d.style.backgroundColor = 'white';
+    d.style.color = 'black';
+    var p2 = document.getElementsByName('paragrafo1')[0]
+    p2.style.fontFamily = 'Comic Sans'
+    var h1 = document.getElementsByClassName('h1')[0]
+    h1.style.fontSize = '10pt'
+    /* window.document.write(window.document.charset)
+    window.document.write(window.navigator.appName)
+    window.document.write(window.document.url) */
+  </script>
+</body>
+
+</html>
