@@ -1,0 +1,6 @@
+// Funções
+
+function ação(param) {
+
+}
+
