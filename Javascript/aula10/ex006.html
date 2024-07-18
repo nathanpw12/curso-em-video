@@ -2,24 +2,36 @@
 <html lang="PT-br">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
   <title>Eventos DOM</title>
 </head>
 
 <body>
-  <div id="area" onclick="clicar()">
+  <div id="area">
     Interaja...
   </div>
 
   <script>
+    var areaDiv = document.getElementById('area');
+    areaDiv.addEventListener('click', clicar)
+    areaDiv.addEventListener('mouseenter', entrar)
+    areaDiv.addEventListener('mouseout', sair)
+
     function clicar() {
-      var areaDiv = document.getElementById('area')
-      // areaDiv.innerText = 'Você é incrivél!'
-      areaDiv.style.backgroundColor= 'green'
+      areaDiv.innerText = 'Clicou!'
+      areaDiv.style.backgroundColor = 'green';
+    }
+    function entrar() {
+      areaDiv.innerText = 'Entrou'
+      areaDiv.style.backgroundColor = 'blue';
     }
 
+    function sair() {
+      areaDiv.innerText = 'Saiu'
+      areaDiv.style.backgroundColor = 'purple';
+    }
   </script>
 </body>
 
