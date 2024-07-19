@@ -8,3 +8,4 @@ mousemove // enquanto tiver movimento do mouse
 mousedown // click quando inicia
 mouseup // click quando acaba
 click // click inteiro
+
