@@ -5,30 +5,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Somando Números</title>
+  <style>
+    body {
+      font: normal 10pt Verdana;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* Garante que o body ocupe toda a altura da janela do navegador */
+      margin: 0; /* Remove margens padrão */
+      background-color: crimson;
+    }
+    input {
+      font: normal 15pt Arial;
+      width: 100px;
+    }
+    div{
+      border: 2px solid black; /* Define uma borda sólida preta com 2px de largura */
+      padding: 20px; /* Adiciona um espaçamento interno de 20px */
+      width: 400px; /* Define a largura da div */
+      height: 150px; /* Define a altura da div */
+      background-color: aqua;
+    }
+  </style>
 </head>
 
 <body>
-  <h1>Somando Valores</h1>
-  <input type="number" name="text1" id="text1"> +
-  <input type="number" name="text2" id="text2">
-  <input type="button" value="somar" onclick="somar()">
-  <h2 id='h2'> O resultado da soma é: </h2>
+  <div id="borda">
+    <h1>Somando Valores</h1>
+    <input type="number" name="text1" id="text1"> +
+    <input type="number" name="text2" id="text2">
+    <input type="button" value="somar" onclick="somar()">
+    <h2 id='h2'> O resultado da soma é: </h2>
+  </div>
   <script>
     function somar() {
-      let num1 = document.getElementById('text1')
-      let numSoma = num1.innerText
-      console.log(numSoma);
-      let num2 = document.getElementById('text2')
-      let numSoma2 = num2.innerText
-      console.log(numSoma2);
+      let txt1 = document.getElementById('text1')
+      let txt2 = document.getElementById('text2')
       let resultH2 = document.getElementById('h2')
-      console.log(resultH2);
-      let soma = numSoma + numSoma2
-      console.log(soma);
-      let resultado = soma
-      resultH2.innerText = `O resultado da soma é: ${resultado}`
+      let num1 = Number(txt1.value)
+      let num2 = Number(txt2.value)
+      let soma = num1 + num2 
+      resultH2.innerText = `O resultado da soma é: ${soma}`
     }
   </script>
 </body>
 
-</html>
+</html>gg
