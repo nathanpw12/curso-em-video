@@ -1,0 +1,28 @@
+body {
+  font: normal 10pt Verdana;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* Garante que o body ocupe toda a altura da janela do navegador */
+  margin: 0;
+  /* Remove margens padrão */
+  background-color: crimson;
+}
+
+input {
+  font: normal 15pt Arial;
+  width: 100px;
+}
+
+div {
+  border: 2px solid black;
+  /* Define uma borda sólida preta com 2px de largura */
+  padding: 20px;
+  /* Adiciona um espaçamento interno de 20px */
+  width: 400px;
+  /* Define a largura da div */
+  height: 200px;
+  /* Define a altura da div */
+  background-color: aqua;
+}
