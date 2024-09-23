@@ -9,17 +9,3 @@ function radar() {
 }
 
 console.log(radar());
-
-
-
-
-
-
-
-
-
-
-
-
-
-
