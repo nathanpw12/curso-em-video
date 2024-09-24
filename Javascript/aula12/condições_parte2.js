@@ -9,3 +9,20 @@ if (1 > 2) {
     false;
   }
 }
+
+// condição multipla
+
+switch (expressão) {
+  case valor1: // o switch vai reproduzir todos os cases abaixo da condição se não colocar o break
+  
+    break
+  case valor2:
+  
+    break
+  case valor3:
+
+    break
+  default:
+
+    break
+}
