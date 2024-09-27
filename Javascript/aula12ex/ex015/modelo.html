@@ -10,21 +10,21 @@
 
 <body>
   <header>
-    <h1>Verificador de Idade</h1>
+    <h1> Calculador de idade </h1>
   </header>
 
   <section>
 
     <div>
-      <p>Ano de Nascimento:
-        <input type="number" name="txtano" id="txtano" min="1" >
-      <p>Sexo:
+      <p id="year">Ano de Nascimento:
+        <input type="number" name="txtano" id="txtano" min="1" onkeydown="search()" placeholder="2001">
+      <p id="sex">Sexo:
         <input type="radio" name="radsex" id="masc" checked>
         <label for="masc">Masculino</label>
         <input type="radio" name="radsex" id="fem">
         <label for="fem">Feminino</label>
       </p>
-        <input type="button" value="Verificar" onclick="verificar()">
+        <input type="button" id="verificar" value="Verificar" onclick="verificar()">
       </p>
     </div>
 

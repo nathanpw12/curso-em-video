@@ -15,10 +15,20 @@ section {
   width: 500px;
   margin: auto;
   box-shadow: rgba(0, 0, 0, 0.692) 5px 5px 10px;
+  
 }
 
-#res {
-  text-align: center;
+#res, #img {
+  width: 50%; /* Defina a largura desejada */
+  margin: 0 auto; /* Margem automática nas laterais */
+}
+
+#verificar {
+  margin-left: 40%;
+}
+
+#year, #sex {
+  margin-left: 10%;
 }
 
 footer {
