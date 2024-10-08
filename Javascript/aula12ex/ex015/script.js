@@ -57,7 +57,7 @@ function verificar() {
         res.innerHTML = `Se ela nasceu em ${fano.value}, atualmente tem ${idade} anos (alguns não muito vivos)`;
       } else {
         // idoso
-        img.setAttribute('src', 'src/M_idoso.png');
+        img.setAttribute('src', 'src/M_idosa.png');
         res.innerHTML = `Se ela nasceu em ${fano.value}, atualmente é uma idosa de ${idade} anos!`;
       }
     }
