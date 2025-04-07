@@ -18,7 +18,7 @@ function verificar() {
     img.setAttribute('id', 'foto');
     if (fsex[0].checked) {
       genero = 'Homem';
-      if (idade >= 1 && idade <= 10) {
+      if (idade >= 0 && idade <= 10) {
         // criança
         img.setAttribute('src', 'src/H_crianca.png');
         res.innerHTML = `Se ele  nasceu em ${fano.value}, atualmente é uma criança de ${idade} anos!`;
@@ -57,7 +57,7 @@ function verificar() {
         res.innerHTML = `Se ela nasceu em ${fano.value}, atualmente tem ${idade} anos (alguns não muito vivos)`;
       } else {
         // idoso
-        img.setAttribute('src', 'src/M_idoso.png');
+        img.setAttribute('src', 'src/M_idosa.png');
         res.innerHTML = `Se ela nasceu em ${fano.value}, atualmente é uma idosa de ${idade} anos!`;
       }
     }
